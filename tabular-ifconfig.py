@@ -5,7 +5,7 @@ Usage:
 curl -s https://raw.githubusercontent.com/0xAungkon/Awesome-Server-Scripts/refs/heads/main/tabular-ifconfig.py | python3
 
 Example output:
- curl -s https://gist.githubusercontent.com/0xAungkon/8f025e49afba1f79e9270ba108141a7e/raw/15a2e5a6ebe15fbe85e73934835fad5511a6da25/tabular-ifconfig.py | python3
+$ curl -s https://raw.githubusercontent.com/0xAungkon/Awesome-Server-Scripts/refs/heads/main/tabular-ifconfig.py | python3
 Adapter             IPv4                MAC                 Gateway             RX             TX             
 eth0                192.168.0.101       04:7c:16:1b:d9:9b   192.168.0.101       852.2 MB       296.2 MB       
 tailscale0          100.84.159.117      N/A                 100.84.159.117      258.7 MB       154.1 MB       
