@@ -154,4 +154,7 @@ for a in adapters:
 
 # Warn if ifconfig command not found and RX/TX info was skipped
 if not ifconfig_exists:
-    print(f"{GREY}[!] Warning: ifconfig not available, skipping RX/TX/Gateway info{RESET}")
+    RED = "\033[31m"
+    RESET = "\033[0m"
+    print(f"{RED}[!] Warning: ifconfig not available, skipping RX/TX/Gateway info{RESET}")
+
