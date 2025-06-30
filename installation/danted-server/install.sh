@@ -1,3 +1,13 @@
+#!/bin/bash
+"""
+This script to install danted server
+
+Usage:
+curl -s https://raw.githubusercontent.com/0xAungkon/Awesome-Server-Scripts/refs/heads/main/installation/danted-server/install.sh | bash
+       
+"""
+
+#!/bin/bash
 apt-get update
 apt install dante-server -y
 sudo useradd -M -s /usr/sbin/nologin proxyuser
